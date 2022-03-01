@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+        margin: 0;
+        padding: 0;
+}
+.sidebar{
+    position: absolute;
+    /* background-color: rgb(190, 218, 250); */
+    background: linear-gradient(182deg, rgb(190, 219, 251),rgb(208, 205, 248));
+    width: 113px;
+    transition: transform 0.2s ease-in;
+}
+.sidebar nav{
+    font-weight: bold;
+    padding: 45px 20px;
+    height: 80vh;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+    width:100vw;
+    height: 100vh;
+    /* z-index: -1; */
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    margin: auto;
+    margin-top: 16vh;
+    /* background-color: yellowgreen; */
+    height: 70vh;
+    width: 75vw;
+    display: flex;
+    justify-content: space-around;
+}
+.myInfo{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    font-size: 16px;
+    /* z-index: 9; */
+}
+
+.swiper-slide .blog_slide{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.blog_pic{
+    width: 15vw;
+    height: 33vh;
+    opacity: 50%;
+}
+.blog_text{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.Hello{
+    font-size: 3.5em;
+    font-family: 'Playfair Display', serif;
+}
+.Iam{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.About{
+    font-size: 2.5em;
+    font-family: 'Festive', cursive;
+}
+.moreabout{
+    font-size: 2.2em ;
+}
+.buttons{
+    font-size: 16px;
+}
+.buttons button{
+    background: linear-gradient(328deg, rgb(114, 14, 101),rgb(88, 114, 134));
+    color: floralwhite;
+    margin: 19px 3px;
+    padding: 10px 14px;
+    border-radius: 18px;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px;
+}
+.buttons button:hover{
+    background:floralwhite;
+    color: #1d066d;
+}
+.history_main h1, .travel_main h1{
+    margin-left: 80px;
+    padding: 20px 184px;
+    padding-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+.contactform{
+    margin-left: 80px;
+    padding: 20px 184px;
+    padding-top: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+.contactform h1{
+    text-align: left;
+    margin-bottom: 5mm;
+}
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 30vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#Help{
+    font-size: 11px;
+    color: blue;
+}
+#check-box{
+    flex-direction: row;
+}
+#isclient{
+    width: 19px;  
+}
+.form-check-label{
+    margin-left: 5px;
+}
+.butons{
+    background: linear-gradient(328deg, rgb(114, 14, 101),rgb(88, 114, 134));
+    color: floralwhite;
+    margin: 12px 0px;
+    padding: 4px 8px;
+    border-radius: 15px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px;
+}
+.butons:hover{
+    font-weight: bold;
+    background:floralwhite;
+    color: #1d066d;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    margin: 30px;
+}
+p{
+    font-family: 'Playfair Display', serif;
+    margin:35px;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    margin: 12px;   
+}
+.skillcontainer{
+    margin: 21px;
+}
+.skillItem{
+    margin-left: 2px;
+    display: flex;
+}
+.skill{
+    margin-left: 5px;
+    margin-top: 1px;
+    margin-bottom: 25px;
+    width: 280px;
+    height: 13px;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.hundred{
+    width:280px;
+    color: blue;
+}
+.seventy{
+    width:200px;
+    background-color: yellow;
+}
+.fifty{
+    width:140px;
+    background-color: green;
+}
+.sidebarGo{
+    transform: translate(-163px,0px);
+    position: absolute
+} 
+.hamburger{
+    cursor: pointer;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+.demo {
+    position: relative;
+    height: 50vh;
+    width: 40vw;
+  }
+
+.demo {
+    background: transparent;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+@media (max-width: 1517px) {
+    .sidebar{
+        width: 140px;
+        height: 100vh;
+    }
+}
+@media (max-width: 658px) {
+    .hamburger{
+        z-index: 2;
+    }
+    .sidebar{
+        position: absolute;
+        z-index: 1;
+    }    
+    .infocontainer{
+        padding-top:100px;
+        margin: auto;
+        margin-top: 1vh;
+        height: 65vh;
+        width: 75vw;
+        display: flex;
+        flex-direction: column;
+        z-index: -1;
+    }
+    .demo{
+        height: 70vh;
+        width: 75vw;
+        z-index: 0;
+    }
+    .skillcontainer, .h1, .p, .h2, .infocontainer{
+        margin: 30px;
+        margin-left: 65px;
+    }
+    .contactform, .mb-3
+    {
+        margin-left: 20px;
+        padding: 20px 20px;
+    }
+}
